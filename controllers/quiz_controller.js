@@ -8,14 +8,14 @@ exports.index = function(req, res) {
 
 //GET /quizes/:id
 exports.show = function(req, res){    	
-    models.Quiz.findById(req.params.quizId).then(function(quiz){
+    models.Quiz.find(req.params.quizId).then(function(quiz){
       res.render('quizes/show', {title: 'Quiz', quiz: quiz});
     })
 };
 
 //GET /quizes/:id/answer
 exports.answer = function(req, res){   	
-    models.Quiz.findById(req.params.quizId).then(function(quiz){
+    models.Quiz.find(req.params.quizId).then(function(quiz){
       if (req.query.respuesta === quiz.respuesta){
          res.render('quizes/answer', {title: 'Quiz', quiz: quiz, respuesta: 'Correcto'});
       }else{
