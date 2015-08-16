@@ -1,0 +1,277 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'foreman' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'foreman', null ]
+5 verbose cache add name=undefined spec="foreman" args=["foreman",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'foreman',
+6 verbose parsed url   path: 'foreman',
+6 verbose parsed url   href: 'foreman' }
+7 silly lockFile faf84889-foreman foreman
+8 verbose lock foreman /home/rocio/.npm/faf84889-foreman.lock
+9 silly lockFile faf84889-foreman foreman
+10 silly lockFile faf84889-foreman foreman
+11 verbose addNamed [ 'foreman', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 055239d3-foreman foreman@
+14 verbose lock foreman@ /home/rocio/.npm/055239d3-foreman.lock
+15 silly addNameRange { name: 'foreman', range: '*', hasData: false }
+16 verbose url raw foreman
+17 verbose url resolving [ 'https://registry.npmjs.org/', './foreman' ]
+18 verbose url resolved https://registry.npmjs.org/foreman
+19 info trying registry request attempt 1 at 17:32:54
+20 http GET https://registry.npmjs.org/foreman
+21 http 200 https://registry.npmjs.org/foreman
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"4TWUKRLGQY4D4A33X4OII2B7Z"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '57027',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sun, 16 Aug 2015 15:33:00 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-ams4146-AMS',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1439739180.293211,VS0,VE620',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'foreman', range: '*', hasData: true }
+24 silly addNameRange versions [ 'foreman',
+24 silly addNameRange   [ '0.0.0',
+24 silly addNameRange     '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.0.10',
+24 silly addNameRange     '0.0.11',
+24 silly addNameRange     '0.0.12',
+24 silly addNameRange     '0.0.13',
+24 silly addNameRange     '0.0.14',
+24 silly addNameRange     '0.0.15',
+24 silly addNameRange     '0.0.16',
+24 silly addNameRange     '0.0.17',
+24 silly addNameRange     '0.0.18',
+24 silly addNameRange     '0.0.19',
+24 silly addNameRange     '0.0.20',
+24 silly addNameRange     '0.0.21',
+24 silly addNameRange     '0.0.22',
+24 silly addNameRange     '0.0.23',
+24 silly addNameRange     '0.0.24',
+24 silly addNameRange     '0.0.25',
+24 silly addNameRange     '0.0.26',
+24 silly addNameRange     '0.0.27',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.4.1' ] ]
+25 verbose addNamed [ 'foreman', '1.4.1' ]
+26 verbose addNamed [ '1.4.1', '1.4.1' ]
+27 silly lockFile caed99be-foreman-1-4-1 foreman@1.4.1
+28 verbose lock foreman@1.4.1 /home/rocio/.npm/caed99be-foreman-1-4-1.lock
+29 silly lockFile 6b081294-js-org-foreman-foreman-1-4-1-tgz https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz
+30 verbose lock https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz /home/rocio/.npm/6b081294-js-org-foreman-foreman-1-4-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz',
+31 verbose addRemoteTarball   '58b61fb6d814c694ddf2fb75b0573606257b10e3' ]
+32 info retry fetch attempt 1 at 17:32:55
+33 verbose fetch to= /home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/tmp.tgz
+34 http GET https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz
+35 http 200 https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz
+36 verbose tar unpack /home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/tmp.tgz
+37 silly lockFile 062947e9-5749-0-27038281643763185-package tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package
+38 verbose lock tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package /home/rocio/.npm/062947e9-5749-0-27038281643763185-package.lock
+39 silly lockFile 810915eb-5749-0-27038281643763185-tmp-tgz tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/tmp.tgz
+40 verbose lock tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/tmp.tgz /home/rocio/.npm/810915eb-5749-0-27038281643763185-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry forward.js
+46 silly gunzTarPerm extractEntry nf.js
+47 silly gunzTarPerm extractEntry proxy.js
+48 silly gunzTarPerm extractEntry CHANGES.md
+49 silly gunzTarPerm extractEntry lib/colors.js
+50 silly gunzTarPerm extractEntry lib/envs.js
+51 silly gunzTarPerm extractEntry lib/exporters.js
+52 silly gunzTarPerm extractEntry lib/forward.js
+53 silly gunzTarPerm extractEntry lib/proc.js
+54 silly gunzTarPerm extractEntry lib/procfile.js
+55 silly gunzTarPerm extractEntry lib/console.js
+56 silly gunzTarPerm extractEntry lib/requirements.js
+57 silly gunzTarPerm extractEntry lib/proxy.js
+58 silly gunzTarPerm extractEntry lib/smf/foreman-APP.xml
+59 silly gunzTarPerm extractEntry lib/supervisord/foreman-APP-N.conf
+60 silly gunzTarPerm extractEntry lib/supervisord/foreman.conf
+61 silly gunzTarPerm extractEntry lib/systemd/foreman-APP-N.service
+62 silly gunzTarPerm extractEntry lib/systemd/foreman-APP.target
+63 silly gunzTarPerm extractEntry lib/systemd/foreman.target
+64 silly gunzTarPerm extractEntry lib/upstart/foreman-APP-N.conf
+65 silly gunzTarPerm extractEntry lib/upstart/foreman-APP.conf
+66 silly gunzTarPerm extractEntry lib/upstart/foreman.conf
+67 silly gunzTarPerm extractEntry lib/upstart-single/foreman-APP.conf
+68 silly gunzTarPerm extractEntry lib/upstart-single/foreman.conf
+69 silly lockFile 062947e9-5749-0-27038281643763185-package tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package
+70 silly lockFile 062947e9-5749-0-27038281643763185-package tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package
+71 silly lockFile 810915eb-5749-0-27038281643763185-tmp-tgz tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/tmp.tgz
+72 silly lockFile 810915eb-5749-0-27038281643763185-tmp-tgz tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/tmp.tgz
+73 verbose tar pack [ '/home/rocio/.npm/foreman/1.4.1/package.tgz',
+73 verbose tar pack   '/home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package' ]
+74 verbose tarball /home/rocio/.npm/foreman/1.4.1/package.tgz
+75 verbose folder /home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package
+76 silly lockFile 062947e9-5749-0-27038281643763185-package tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package
+77 verbose lock tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package /home/rocio/.npm/062947e9-5749-0-27038281643763185-package.lock
+78 silly lockFile 42a8af2d-io-npm-foreman-1-4-1-package-tgz tar:///home/rocio/.npm/foreman/1.4.1/package.tgz
+79 verbose lock tar:///home/rocio/.npm/foreman/1.4.1/package.tgz /home/rocio/.npm/42a8af2d-io-npm-foreman-1-4-1-package-tgz.lock
+80 silly lockFile 062947e9-5749-0-27038281643763185-package tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package
+81 silly lockFile 062947e9-5749-0-27038281643763185-package tar:///home/rocio/tmp/npm-7261-o3aK6pbj/1439739175749-0.27038281643763185/package
+82 silly lockFile 42a8af2d-io-npm-foreman-1-4-1-package-tgz tar:///home/rocio/.npm/foreman/1.4.1/package.tgz
+83 silly lockFile 42a8af2d-io-npm-foreman-1-4-1-package-tgz tar:///home/rocio/.npm/foreman/1.4.1/package.tgz
+84 silly lockFile 4699290d--rocio-npm-foreman-1-4-1-package /home/rocio/.npm/foreman/1.4.1/package
+85 verbose lock /home/rocio/.npm/foreman/1.4.1/package /home/rocio/.npm/4699290d--rocio-npm-foreman-1-4-1-package.lock
+86 silly lockFile 4699290d--rocio-npm-foreman-1-4-1-package /home/rocio/.npm/foreman/1.4.1/package
+87 silly lockFile 4699290d--rocio-npm-foreman-1-4-1-package /home/rocio/.npm/foreman/1.4.1/package
+88 verbose tar unpack /home/rocio/.npm/foreman/1.4.1/package.tgz
+89 silly lockFile 6621b8b3--rocio-npm-foreman-1-4-1-package tar:///home/rocio/.npm/foreman/1.4.1/package
+90 verbose lock tar:///home/rocio/.npm/foreman/1.4.1/package /home/rocio/.npm/6621b8b3--rocio-npm-foreman-1-4-1-package.lock
+91 silly lockFile 42a8af2d-io-npm-foreman-1-4-1-package-tgz tar:///home/rocio/.npm/foreman/1.4.1/package.tgz
+92 verbose lock tar:///home/rocio/.npm/foreman/1.4.1/package.tgz /home/rocio/.npm/42a8af2d-io-npm-foreman-1-4-1-package-tgz.lock
+93 silly gunzTarPerm modes [ '755', '644' ]
+94 silly gunzTarPerm extractEntry package.json
+95 silly gunzTarPerm extractEntry README.md
+96 silly gunzTarPerm extractEntry forward.js
+97 silly gunzTarPerm extractEntry nf.js
+98 silly gunzTarPerm extractEntry proxy.js
+99 silly gunzTarPerm extractEntry lib/colors.js
+100 silly gunzTarPerm extractEntry lib/envs.js
+101 silly gunzTarPerm extractEntry lib/exporters.js
+102 silly gunzTarPerm extractEntry lib/forward.js
+103 silly gunzTarPerm extractEntry lib/proc.js
+104 silly gunzTarPerm extractEntry lib/procfile.js
+105 silly gunzTarPerm extractEntry lib/console.js
+106 silly gunzTarPerm extractEntry lib/requirements.js
+107 silly gunzTarPerm extractEntry lib/proxy.js
+108 silly gunzTarPerm extractEntry lib/smf/foreman-APP.xml
+109 silly gunzTarPerm extractEntry lib/supervisord/foreman-APP-N.conf
+110 silly gunzTarPerm extractEntry lib/supervisord/foreman.conf
+111 silly gunzTarPerm extractEntry lib/systemd/foreman-APP-N.service
+112 silly gunzTarPerm extractEntry lib/systemd/foreman-APP.target
+113 silly gunzTarPerm extractEntry lib/systemd/foreman.target
+114 silly gunzTarPerm extractEntry lib/upstart/foreman-APP-N.conf
+115 silly gunzTarPerm extractEntry lib/upstart/foreman-APP.conf
+116 silly gunzTarPerm extractEntry lib/upstart/foreman.conf
+117 silly gunzTarPerm extractEntry lib/upstart-single/foreman-APP.conf
+118 silly gunzTarPerm extractEntry lib/upstart-single/foreman.conf
+119 silly lockFile 6621b8b3--rocio-npm-foreman-1-4-1-package tar:///home/rocio/.npm/foreman/1.4.1/package
+120 silly lockFile 6621b8b3--rocio-npm-foreman-1-4-1-package tar:///home/rocio/.npm/foreman/1.4.1/package
+121 silly lockFile 42a8af2d-io-npm-foreman-1-4-1-package-tgz tar:///home/rocio/.npm/foreman/1.4.1/package.tgz
+122 silly lockFile 42a8af2d-io-npm-foreman-1-4-1-package-tgz tar:///home/rocio/.npm/foreman/1.4.1/package.tgz
+123 verbose chmod /home/rocio/.npm/foreman/1.4.1/package.tgz 644
+124 verbose chown /home/rocio/.npm/foreman/1.4.1/package.tgz [ 1000, 1000 ]
+125 silly lockFile 6b081294-js-org-foreman-foreman-1-4-1-tgz https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz
+126 silly lockFile 6b081294-js-org-foreman-foreman-1-4-1-tgz https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz
+127 silly lockFile caed99be-foreman-1-4-1 foreman@1.4.1
+128 silly lockFile caed99be-foreman-1-4-1 foreman@1.4.1
+129 silly lockFile 055239d3-foreman foreman@
+130 silly lockFile 055239d3-foreman foreman@
+131 silly resolved [ { name: 'foreman',
+131 silly resolved     version: '1.4.1',
+131 silly resolved     homepage: 'http://strongloop.github.io/node-foreman/',
+131 silly resolved     description: 'Node Implementation of Foreman',
+131 silly resolved     author: { name: 'StrongLoop, Inc.' },
+131 silly resolved     license: 'MIT',
+131 silly resolved     keywords: [ 'foreman', 'upstart', 'commandline', 'env', 'Procfile' ],
+131 silly resolved     bin: { nf: 'nf.js' },
+131 silly resolved     files: [ 'forward.js', 'nf.js', 'proxy.js', 'lib/' ],
+131 silly resolved     scripts:
+131 silly resolved      { test: 'tap test',
+131 silly resolved        lint: 'jshint *.js lib/*.js',
+131 silly resolved        travis: 'npm test && npm run lint' },
+131 silly resolved     dependencies:
+131 silly resolved      { commander: '~2.1.0',
+131 silly resolved        'http-proxy': '~1.11.1',
+131 silly resolved        mu2: '~0.5.20',
+131 silly resolved        'shell-quote': '~1.4.2' },
+131 silly resolved     repository:
+131 silly resolved      { type: 'git',
+131 silly resolved        url: 'https://github.com/strongloop/node-foreman.git' },
+131 silly resolved     bugs:
+131 silly resolved      { url: 'https://github.com/strongloop/node-foreman/issues',
+131 silly resolved        email: 'callback@strongloop.com' },
+131 silly resolved     engines: { node: '>=0.6.9' },
+131 silly resolved     preferGlobal: true,
+131 silly resolved     devDependencies:
+131 silly resolved      { chai: '~1.9.1',
+131 silly resolved        jshint: '^2.6.3',
+131 silly resolved        rimraf: '~2.2.8',
+131 silly resolved        tap: '~0.4.8' },
+131 silly resolved     readme: '# Node Foreman [![Build Status](https://travis-ci.org/strongloop/node-foreman.svg)](https://travis-ci.org/strongloop/node-foreman)\n\nNode Foreman is a Node.js version of the popular\n[Foreman](http://ddollar.github.com/foreman/) tool,\nwith a few Node specific changes.\n\n> Foreman is a manager for Procfile-based applications.\n> Its aim is to abstract away the details of the Procfile\n> format, and allow you to either run your application\n> directly or export it to some other process management format.\n\n## Install\n\nInstall the command line tool\n\n    $ npm install -g foreman\n\nGet usage\n\n    $ nf --help\n\n## Deviations from the original Foreman\n\n * Each worker has an additional automatic environment variable,\n   `FOREMAN_WORKER_NAME`, that contains the the process name and worker number.\n   * example: `web.1`, `worker.1`\n\n### How to Contribute\n\nI encourage anyone and everyone to help.\nIf you have a specific change in mind, open an issue; we can talk about it there.\n\nIf you would like to make a code change, go ahead.\nFork the repository, open a pull request.\nDo this early, and talk about the change you want to make.\nMaybe we can work together on it.\n\nRefactor Refactor Refactor!\nYou are free to add features, or just help clean things up.\n\n## Usage\n\nNode Foreman can be run with as little as `nf start`, as long as `npm start` has been defined.\nFor more complicated applications you will want to define a `Procfile` for your various server\nprocesses and and a `.env` file to preload environmental variables.\n\nYour module directory should end up looking like the following:\n\n![List Foreman Directory](https://raw.github.com/strongloop/node-foreman/master/assets/foreman-ls.png)\n\nOnce your Procfile is defined, run your application with `nf start`:\n\n![Start Foreman](https://raw.github.com/strongloop/node-foreman/master/assets/foreman-start.png)\n\nNode Foreman _always_ starts in the foreground and expects your applications\nto do the same. If your processes exit, Node Foreman will assume an error\nhas ocurred and shut your application down.\n\nInstead of daemonizing, you should use `nf export` to ready your application\nfor production.\n\nFor more information try any of the following:\n\n\t$ nf --help\n\t$ nf start --help\n\t$ nf run --help\n\t$ nf export --help\n\n### Procfile\n\nThe `Procfile` format is a simple `key : command` format:\n\n    web: node web_server.js\n    api: node api_server.js\n    log: node log_server.js\n\nEach line should contain a separate process.\n\n### Environmental Variables\n\nCreate a `.env` file to pre-load environmental variables with the format:\n\n    MYSQL_NAME=superman\n    MYSQL_PASS=cryptonite\n\nThe equivalent `.env` file may alternatively be a valid JSON document:\n\n    {\n        "mysql":{\n            "name": "superman",\n            "pass": "cryptonite"\n        }\n    }\n\nThe above JSON document will be flattened into env variables by\nconcatenating the nested values with an underscore.\nEnvironmental variables are passed in fully capitalized.\n\n    {\n        "mysql":{\n            "name": "superman",     # => MYSQL_NAME=superman\n            "pass": "cryptonite"    # => MYSQL_PASS=cryptonite\n        }\n    }\n\nThere is no need to specify which type of file you wish to use.\n\n#### The PATH environment variable\n\nThe `PATH` variable is given special treament and is always read\nfrom the environment that the `nf` command has been executed from,\nrather than a `.env` file.  To set a different `PATH` execute\n`nf` with the `PATH` variable set appropriately.\n\n```bash\nPATH=/opt/foo:/opt/bar:$PATH nf export\n```\n\n#### Best Practices\n\nGenerally you should not check your `.env` file into version control.\nThe `.env` file contain _only_ parameters that depend on where the application\ngets deployed. It should not contain anything related to _how_ the application\nis deployed.\n\nFor example, good candidates for the `.env` file are MySQL connection information,\nport bindings, and other passwords.\n\n### The Run Command\n\nTasks or commands that require the environment variables from the `.env` file\ncan be initiated by using `nf run <command>`.\n\n\n### Advanced Usage\n\nNode Foreman lets you start multiple jobs of the same type:\n\n    $ nf start web=5\n\n    18:51:12: web.1     |  Web Server started listening on 0.0.0.0:5000\n    18:51:12: web.2     |  Web Server started listening on 0.0.0.0:5001\n    18:51:12: web.3     |  Web Server started listening on 0.0.0.0:5002\n    18:51:12: web.4     |  Web Server started listening on 0.0.0.0:5003\n    18:51:12: web.5     |  Web Server started listening on 0.0.0.0:5004\n\nEach job will be started as its own process, receiving a different `PORT`\nenvironmental variable.\nThe port number for processes of the same type will be offset by 1.\nThe port number for processes of different types will be offset by 100.\n\n    $ nf start web=2,api=2\n\n    18:51:12: web.1     |  Web Server started listening on 0.0.0.0:5000\n    18:51:12: web.2     |  Web Server started listening on 0.0.0.0:5001\n    18:51:12: api.1     |  Api Server started listening on 0.0.0.0:5100\n    18:51:12: api.2     |  Api Server started listening on 0.0.0.0:5101\n\n## Export to Production\n\nNode Foreman is designed to be in a development environment,\nhowever it can export an Upstart job for use in production.\nThe Upstart file has _no_ dependency on Node Foreman.\n\n    $ nf export\n    Loaded ENV .env File as JSON Format\n    Wrote  :  ./foreman-web-1.conf\n    Wrote  :  ./foreman-web.conf\n    Wrote  :  ./foreman-api-1.conf\n    Wrote  :  ./foreman-api.conf\n    Wrote  :  ./foreman-log-1.conf\n    Wrote  :  ./foreman-log.conf\n    Wrote  :  ./foreman.conf\n\nYou can inspect your upstart files before placing them in the right\ndirectory, or have foreman do it for you:\n\n    $ sudo nf export -o /etc/init\n    Loaded ENV .env File as JSON Format\n    Wrote  :  /etc/init/foreman-api-1.conf\n    Wrote  :  /etc/init/foreman-web.conf\n    Wrote  :  /etc/init/foreman-api.conf\n    Wrote  :  /etc/init/foreman-log.conf\n    Wrote  :  /etc/init/foreman-log-1.conf\n    Wrote  :  /etc/init/foreman-web-1.conf\n    Wrote  :  /etc/init/foreman.conf\n\nStart and stop your jobs with\n\n    $ sudo start foreman\n    $ sudo stop foreman\n\nThe export will occur with whatever environmental variables are\nlisted in the .env file.\n\n### Systemd Support\n\n_This section is beta_\n\nOptionally specify a type `-t systemd` during export for [systemd](http://www.freedesktop.org/wiki/Software/systemd) support.\n\n### Supervisord Support\n\nYou can also use a type `-t supervisord` during export for [supervisord](http://www.supervisord.org) support.\n\nThis will generate a `APP.conf` file grouping the application processes and a `APP-PROCESS-N.conf` file for each process.\n\n    $ nf export --type supervisord\n    Loaded ENV .env File as JSON Format\n    Wrote  :  ./foreman-web-1.conf\n    Wrote  :  ./foreman-api-1.conf\n    Wrote  :  ./foreman-log-1.conf\n    Wrote  :  ./foreman.conf\n\nYou can start / stop / restart individual processes.\n\n    $ sudo supervisorctl start \'foreman:foreman-web-1\'\n    $ sudo supervisorctl stop \'foreman:foreman-web-1\'\n    $ sudo supervisorctl restart \'foreman:foreman-web-1\'\n\nOr the entire group of processes\n\n    $ sudo supervisorctl start \'foreman:*\'\n    $ sudo supervisorctl stop \'foreman:*\'\n    $ sudo supervisorctl restart \'foreman:*\'\n\n### Advanced Exports\n\nYou can specify the type and number of processes exported using\nthe `type=num` syntax:\n\n    $ nf export web=2,api=2\n\nUse `-u <USER>` to have the exported job run as `USER`.\nNote that if you need to bind to privileged ports, you _must_\nstart as `root`. In such a case, we advise you to drop user\npermissions after binding.\n\nIf you want to call your upstart job something other than foreman,\nuse `-a <JOBNAME>` and manage your jobs with `sudo start <JOBNAME>`.\n\n## Reverse Proxy\n\nNode.js processes are supposed to be stateless.\nApplication scale by starting multiple processes that either share a socket,\nor sit behind a load balancer.\nNode Foreman can help you test the parallel capabilities of your application\nby spawning multiple processes behind a round-robin proxy automatically.\n\n\t$ nf start -x 8888 web=5\n\t[OKAY] Starting Proxy Server 8888 -> 5000-5004\n\nAccess your application from port `8888` and the connections will be balanced\nacross the servers started from ports `5000` - `5004`.\n\nIf your application gets its port number from `process.env.PORT` the proxy\nsetup will ocurr automatically.\n\n### Multiple Reverse Proxies\n\nIf you have multiple processes in your `Procfile` you can start multiple proxies.\n\n    $ nf start -x 8888,8080,9090\n\nThis will start 3 separate proxies and bind each to a separate process group.\nProxies are bound based on their order specified, their order in the Procfile,\nor by their order on the command line.\n\n    $ nf start -x 8888,9999 web,api\n\n### Privileged Ports\n\nNode Foreman disallows applications from starting on privileged ports.\nIt does however allow proxies to be bound to lower ports, such as port 80.\n\nIf you require access to a privileged port, start Node Foreman with `sudo`:\n\n\t$ sudo nf start -x 80 web=5\n\t[OKAY] Starting Proxy Server 80 -> 5000-5004\n\nYour application will then be accessible via port 80.\n\nYour applications will _still_ be started in user space, and the proxy will\ndrop its privileges after binding to the privileged port.\n\n## Forward Proxy\n\nLocal development and testing has huge advantages,\nbut sometimes one needs to test web applications agains their real-world domain name.\nEditing `/etc/hosts` is a pain however, and error prone.\n\nNode Foreman can start up an HTTP forward proxy which your browser can route requests through.\nThe forward proxy will intercept requests based on domain name, and route them to the local application.\n\n    $ nf start -f 9999 -h nodefly.com\n    [OKAY] Forward Proxy Started in Port 9999\n    [OKAY] Intercepting requests to nodefly.com through forward proxy\n\nA forward proxy is useful when testing OAuth, or other external services with application callbacks.\n\nFor users with Google Chrome, this can be paired with [Proxy Switch Sharp](http://switchy.samabox.com/) for great results.\n',
+131 silly resolved     readmeFilename: 'README.md',
+131 silly resolved     _id: 'foreman@1.4.1',
+131 silly resolved     dist: { shasum: '78e3dd70afae2c24af1006a8125fd1cefe52b9f4' },
+131 silly resolved     _from: 'foreman@',
+131 silly resolved     _resolved: 'https://registry.npmjs.org/foreman/-/foreman-1.4.1.tgz' } ]
+132 info install foreman@1.4.1 into /usr/local/lib
+133 info installOne foreman@1.4.1
+134 info /usr/local/lib/node_modules/foreman unbuild
+135 verbose tar unpack /home/rocio/.npm/foreman/1.4.1/package.tgz
+136 silly lockFile 123a18ea-r-local-lib-node-modules-foreman tar:///usr/local/lib/node_modules/foreman
+137 verbose lock tar:///usr/local/lib/node_modules/foreman /home/rocio/.npm/123a18ea-r-local-lib-node-modules-foreman.lock
+138 silly lockFile 42a8af2d-io-npm-foreman-1-4-1-package-tgz tar:///home/rocio/.npm/foreman/1.4.1/package.tgz
+139 verbose lock tar:///home/rocio/.npm/foreman/1.4.1/package.tgz /home/rocio/.npm/42a8af2d-io-npm-foreman-1-4-1-package-tgz.lock
+140 silly gunzTarPerm modes [ '755', '644' ]
+141 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+141 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+141 error   errno: 3,
+141 error   code: 'EACCES',
+141 error   path: '/usr/local/lib/node_modules',
+141 error   fstream_type: 'Directory',
+141 error   fstream_path: '/usr/local/lib/node_modules/foreman',
+141 error   fstream_class: 'DirWriter',
+141 error   fstream_stack:
+141 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+141 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+141 error      'Object.oncomplete (fs.js:107:15)' ] }
+142 error Please try running this command again as root/Administrator.
+143 error System Linux 3.13.0-57-generic
+144 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "foreman"
+145 error cwd /home/rocio/Documentos/Formación Complementaria/js-nodejs-express/Modulo 6/quiz-raiz
+146 error node -v v0.10.25
+147 error npm -v 1.3.10
+148 error path /usr/local/lib/node_modules
+149 error fstream_path /usr/local/lib/node_modules/foreman
+150 error fstream_type Directory
+151 error fstream_class DirWriter
+152 error code EACCES
+153 error errno 3
+154 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+155 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+155 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+155 error fstream_stack Object.oncomplete (fs.js:107:15)
+156 verbose exit [ 3, true ]

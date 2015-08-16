@@ -21,6 +21,6 @@ exports.answer = function(req, res){
       }else{
          res.render('quizes/answer', {title: 'Quiz', quiz: quiz,  respuesta: 'Incorrecto'});
       }  
-    })
+    });
 };
 
