@@ -41,6 +41,18 @@ sequelize.sync().then(function(){
 				     tema: "humanidades"
 				});
 			
+			Quiz.create({pregunta: 'Capital de España',	
+				     respuesta: 'Madrid',
+				     tema: "humanidades"
+				});			
+			Quiz.create({pregunta: 'Capital de Francia',	
+				     respuesta: 'Paris',
+				     tema: "humanidades"
+				});
+			Quiz.create({pregunta: 'Capital de Grecia',	
+				     respuesta: 'Atenas',
+				     tema: "humanidades"
+				});
 			Quiz.create({pregunta: 'Capital de Portugal',	
 				     respuesta: 'Lisboa',
 				     tema: "humanidades"
