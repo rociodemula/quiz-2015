@@ -36,6 +36,25 @@ app.use(function(req, res, next){
     }
     //Hacer visible req.session en las vistas
     res.locals.session = req.session;
+
+    // Control de Logout. Si hay sesión
+    if (req.session.sessionTime) {
+        // Recogemos el valor del tiempo
+        var sessionTime = new Date(req.session.sessionTime);
+        var currentTime = new Date();
+        var secondsTime = (currentTime - sessionTime)/1000;
+
+        //Si han pasado más de dos minutos hay que realizar el logout
+        if (secondsTime>120) {
+            // Eliminamos la sesión
+            delete req.session.user;
+            delete req.session.sessionTime;
+
+            // Redireccionamos al path original
+            res.redirect(req.session.redir.toString());
+        } else req.session.sessionTime = currentTime;
+    }
+    
     next();
 });
 
